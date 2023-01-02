@@ -1,0 +1,61 @@
+main {
+  height: 1005px;
+}
+
+.netflix_logo {
+  width: 12%;
+  position: absolute;
+}
+
+.login_bg {
+  background-image: url("/images/IMG_20221221_180716.jpg");
+  height: 100%;
+  background-size: cover;
+}
+
+.login_card {
+  width: 400px;
+  height: 500px;
+  background-color: black;
+  /* opacity: 0.7; */
+  color: white;
+  margin: 0 auto;
+  position: relative;
+  bottom: 900px;
+  border-radius: 6px;
+}
+
+.login_card h2 {
+  text-align: center;
+  padding: 25px;
+  font-size: 2rem;
+}
+
+.login_card input {
+  height: 30px;
+  width: 100%;
+  background-color: rgb(232, 225, 225);
+  margin-top: 7px;
+}
+
+.login_form {
+  padding: 40px;
+}
+
+.login_form_button {
+  background-color: red;
+  color: white;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 16px;
+  width: 292px;
+  margin-top: 50px;
+}
+
+.loginpage_signup_button {
+  text-decoration: none;
+  color: red;
+}
