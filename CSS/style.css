@@ -23,7 +23,7 @@ hr {
 }
 
 .netflix_logo {
-  width: 12%;
+  width: 170px;
   /* opacity: none; */
 }
 
@@ -123,6 +123,7 @@ header ul a {
   background-color: black;
   color: white;
   height: 500px;
+  /* width: 100%; */
   margin: 0 auto;
 }
 
@@ -220,7 +221,7 @@ header ul a {
   background-color: black;
   color: white;
   padding-top: 30px;
-  width: 1000px;
+  width: 70%;
   margin: 0 auto;
   padding-bottom: 50px;
 }
@@ -288,4 +289,259 @@ header ul a {
   text-align: center;
   font-size: 24px;
   margin-bottom: 20px;
+}
+
+@media (max-width: 48rem) {
+  .signButt {
+    padding: 6px 8px;
+    background-color: #e50914;
+    color: white;
+    font-size: 1rem;
+    border-radius: 6px;
+    text-decoration: none;
+  }
+
+  .logButt {
+    padding: 6px 8px;
+    /* background-color: black; */
+    color: white;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 1px solid white;
+    text-decoration: none;
+  }
+
+  .hero-content {
+    position: relative;
+    width: 70%;
+    text-align: center;
+    top: 250px;
+    margin: 0 auto;
+  }
+
+  #hero-email {
+    width: 300px;
+    height: 30px;
+    padding: 10px 10px;
+    border: 0px;
+    margin-right: 1px;
+  }
+
+  #get-started {
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    height: 30px;
+    width: 170px;
+    padding: 10px 20px;
+  }
+
+  .enjoy-tv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    height: 80%;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .enjoy-tv-content {
+    margin: 40px auto 0 auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  .enjoy-tv-content h3 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+  }
+
+  .enjoy-tv-content p {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+
+  .enjoy-tv-img img {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  /* .download-show {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    height: 80%;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .download-show-content {
+    margin: 40px auto 0 auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  .download-show-content h3 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+  }
+
+  .download-show-content p {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+
+  .download-show-img img {
+    margin: 0 auto;
+    width: 100%;
+  } */
+
+  .watch-everywhere {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    height: 80%;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .watch-everywhere-content {
+    margin: 40px auto 0 auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  .watch-everywhere-content h3 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+  }
+
+  .watch-everywhere-content p {
+    font-size: 1.5rem;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .watch-everywhere-img img {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 40rem) {
+  .signButt {
+    padding: 6px 8px;
+    background-color: #e50914;
+    color: white;
+    font-size: 1rem;
+    border-radius: 6px;
+    text-decoration: none;
+  }
+
+  .logButt {
+    padding: 6px 8px;
+    /* background-color: black; */
+    color: white;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 1px solid white;
+    text-decoration: none;
+  }
+
+  .hero-content {
+    position: relative;
+    width: 70%;
+    text-align: center;
+    top: 250px;
+    margin: 0 auto;
+  }
+
+  #hero-email {
+    width: 70%;
+    height: 30px;
+    padding: 10px 10px;
+    border: 0px;
+    margin-right: 1px;
+  }
+
+  #get-started {
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    height: 30px;
+    width: 50%;
+    padding: 10px 10px;
+  }
+
+  .enjoy-tv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    height: 80%;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .enjoy-tv-content {
+    margin: 40px auto 0 auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  .enjoy-tv-content h3 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+  }
+
+  .enjoy-tv-content p {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+
+  .enjoy-tv-img img {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .watch-everywhere {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    height: 80%;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .watch-everywhere-content {
+    margin: 40px auto 0 auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  .watch-everywhere-content h3 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+  }
+
+  .watch-everywhere-content p {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+
+  .watch-everywhere-img img {
+    margin: 0 auto;
+    width: 100%;
+  }
 }
