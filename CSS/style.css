@@ -157,7 +157,6 @@ header ul a {
 .download-show-content h3 {
   font-size: 3.5rem;
   margin-bottom: 10px;
-  width: 650px;
 }
 
 .download-show-content p {
@@ -204,7 +203,6 @@ header ul a {
 .children-profile-content h3 {
   font-size: 3.5rem;
   margin-bottom: 10px;
-  width: 650px;
 }
 
 .children-profile-content p {
@@ -369,10 +367,10 @@ header ul a {
     width: 100%;
   }
 
-  /* .download-show {
+  .download-show {
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column-reverse;
     background-color: black;
     color: white;
     height: 80%;
@@ -399,7 +397,7 @@ header ul a {
   .download-show-img img {
     margin: 0 auto;
     width: 100%;
-  } */
+  }
 
   .watch-everywhere {
     display: flex;
@@ -430,6 +428,38 @@ header ul a {
   }
 
   .watch-everywhere-img img {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .children-profile {
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    background-color: black;
+    color: white;
+    height: 80%;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .children-profile-content {
+    margin: 40px auto 0 auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  .children-profile-content h3 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+  }
+
+  .children-profile-content p {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+
+  .children-profile-img img {
     margin: 0 auto;
     width: 100%;
   }
@@ -513,6 +543,38 @@ header ul a {
     width: 100%;
   }
 
+  .download-show {
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    background-color: black;
+    color: white;
+    height: 80%;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .download-show-content {
+    margin: 40px auto 0 auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  .download-show-content h3 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+  }
+
+  .download-show-content p {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+
+  .download-show-img img {
+    margin: 0 auto;
+    width: 100%;
+  }
+
   .watch-everywhere {
     display: flex;
     justify-content: center;
@@ -544,4 +606,35 @@ header ul a {
     margin: 0 auto;
     width: 100%;
   }
+
+  .children-profile {
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    background-color: black;
+    color: white;
+    height: 80%;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .children-profile-content {
+    margin: 40px auto 0 auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  .children-profile-content h3 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+  }
+
+  .children-profile-content p {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+
+  .children-profile-img img {
+    margin: 0 auto;
+    width: 100%;
 }
