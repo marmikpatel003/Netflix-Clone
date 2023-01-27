@@ -1,4 +1,5 @@
 # Netflix-Clone
+
 Netflix Clone Project
 
-Output :
+Output : https://marmikpatel003.github.io/Netflix-Clone/
