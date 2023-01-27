@@ -210,7 +210,7 @@ header ul a {
   width: 500px;
 }
 
-.faq-container {
+#faq-container {
   background-color: black;
   padding-top: 20px;
 }
@@ -280,6 +280,7 @@ header ul a {
 
 .ready-to-log {
   background-color: black;
+  padding-bottom: 30px;
 }
 
 .ready-to-log p {
@@ -287,6 +288,24 @@ header ul a {
   text-align: center;
   font-size: 24px;
   margin-bottom: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%;
+  background-color: black;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #e50914;
+  padding-left: 30px;
+}
+
+.netfix_bg_footer {
+  width: 170px;
 }
 
 @media (max-width: 48rem) {
@@ -463,6 +482,14 @@ header ul a {
     margin: 0 auto;
     width: 100%;
   }
+
+  .footer a {
+    padding-left: 20px;
+  }
+
+  .netfix_bg_footer {
+    width: 150px;
+  }
 }
 
 @media (max-width: 40rem) {
@@ -637,4 +664,13 @@ header ul a {
   .children-profile-img img {
     margin: 0 auto;
     width: 100%;
+  }
+
+  .footer a {
+    padding-left: 10px;
+  }
+
+  .netfix_bg_footer {
+    width: 100px;
+  }
 }
