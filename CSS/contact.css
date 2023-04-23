@@ -1,0 +1,73 @@
+main {
+  height: 1005px;
+}
+
+.netflix_logo {
+  width: 170px;
+  position: absolute;
+}
+
+.contact_bg {
+  background-image: url("../images/netflix\ bg\ updated.jpg");
+  height: 100%;
+  background-size: cover;
+}
+
+.contact_card {
+  width: 400px;
+  height: 780px;
+  background-color: black;
+  color: white;
+  margin: 0 auto;
+  position: relative;
+  bottom: 900px;
+  border-radius: 6px;
+}
+
+.contact_card h2 {
+  text-align: center;
+  padding: 25px;
+  font-size: 2rem;
+}
+
+.contact_card input {
+  height: 30px;
+  width: 100%;
+  background-color: rgb(232, 225, 225);
+  margin-top: 7px;
+}
+
+.contact_form {
+  padding: 40px;
+}
+
+.registerbtn {
+  background-color: red;
+  color: white;
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin: auto;
+  opacity: 0.8;
+  margin-top: 35px;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+.icon {
+  text-align: center;
+}
+
+.icon i {
+  color: red;
+  font-size: 30px;
+  margin-left: 17px;
+}
+
+textarea {
+  resize: vertical;
+  margin-top: 10px;
+}

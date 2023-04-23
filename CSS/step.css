@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+header img {
+    width: 190px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 3%;
+}
+
+header ul a {
+    margin: 0 10px;
+}
+
+.signButt {
+
+    padding: 7px 17px;
+    color: white;
+    font-size: 1rem;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.Step-1 {
+    padding: 40px;
+    width: 350px;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.Step-1 img {
+    height: 200px;
+}
+
+.Step-1_button {
+    background-color: red;
+    color: white;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 16px;
+    width: 292px;
+    margin-top: 50px;
+}
+
+.loginpage_signup_button {
+    text-decoration: none;
+    color: red;
+}
+
+.icons {
+    font-size: 70px;
+    color: red;
+}
+
+.next_button {
+    background-color: red;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 16px;
+    width: 330px;
+    margin-top: 50px;
+}
+
+.Step-2 {
+    padding: 40px;
+    width: 350px;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.Step-2 i {
+
+    color: red;
+}
+
+.plan-step {
+    padding: 40px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.plan-step i {
+
+    color: red;
+}
+
+.plan-price {
+    display: flex;
+
+}
+
+.month {
+    margin-left: auto;
+    background-color: rgb(163, 36, 36);
+}
+
+.year {
+    margin-left: 30px;
+    margin-right: auto;
+    background-color: rgb(163, 36, 36);
+}
